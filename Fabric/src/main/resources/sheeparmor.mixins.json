@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.darkhax.sheeparmor.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinSheep"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+  
