@@ -1,4 +1,4 @@
-package net.darkhax.sheeparmor.common.impl;
+package net.darkhax.sheeparmor.common;
 
 import net.darkhax.pricklemc.common.api.annotations.Value;
 

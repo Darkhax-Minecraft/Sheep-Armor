@@ -1,11 +1,10 @@
 package net.darkhax.sheeparmor.common.mixin;
 
-import net.darkhax.sheeparmor.common.impl.SheepArmor;
-import net.minecraft.nbt.CompoundTag;
+import net.darkhax.sheeparmor.common.SheepArmor;
 import net.minecraft.world.DifficultyInstance;
-import net.minecraft.world.entity.MobSpawnType;
+import net.minecraft.world.entity.EntitySpawnReason;
 import net.minecraft.world.entity.SpawnGroupData;
-import net.minecraft.world.entity.animal.Sheep;
+import net.minecraft.world.entity.animal.sheep.Sheep;
 import net.minecraft.world.level.ServerLevelAccessor;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -21,8 +20,8 @@ public abstract class MixinSheep {
         SheepArmor.updateSheep((Sheep) (Object) this);
     }
 
-    @Inject(method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/MobSpawnType;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", at = @At("RETURN"))
-    private void onSheepSpawn(ServerLevelAccessor level, DifficultyInstance difficulty, MobSpawnType spawnType, SpawnGroupData groupData, CallbackInfoReturnable<SpawnGroupData> cir) {
+    @Inject(method = "finalizeSpawn", at = @At("RETURN"))
+    private void onSheepSpawn(ServerLevelAccessor level, DifficultyInstance difficulty, EntitySpawnReason spawnReason, SpawnGroupData groupData, CallbackInfoReturnable<SpawnGroupData> cir) {
         SheepArmor.updateSheep((Sheep) (Object) this);
     }
 }

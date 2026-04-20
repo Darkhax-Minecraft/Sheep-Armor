@@ -1,0 +1,58 @@
+{
+  "mod": {
+    "name": "SheepArmor",
+    "group": "net.darkhax.sheeparmor",
+    "authors": [
+      "Darkhax"
+    ],
+    "id": "sheeparmor",
+    "license": "LGPL 2.1",
+    "description": "Grants sheep a small armor bonus while they still have wool.",
+    "repo": "https://github.com/Darkhax-Minecraft/Sheep-Armor",
+    "client": false
+  },
+  "curseforge": {
+    "slug": "sheep-armor",
+    "id": "951457"
+  },
+  "modrinth": {
+    "slug": "XepF4jaZ",
+    "id": "3FMUP6BE"
+  },
+  "dependencies": [
+    {
+      "name": "Bookshelf",
+      "type": "required",
+      "maven": {
+        "common": "net.darkhax.bookshelf:bookshelf-common-26.1.2:26.1.2.3",
+        "neoforge": "net.darkhax.bookshelf:bookshelf-neoforge-26.1.2:26.1.2.3",
+        "fabric": "net.darkhax.bookshelf:bookshelf-fabric-26.1.2:26.1.2.3"
+      },
+      "curseforge": {
+        "slug": "bookshelf",
+        "id": "228525"
+      },
+      "modrinth": {
+        "slug": "bookshelf-lib",
+        "id": "uy4Cnpcm"
+      }
+    },
+    {
+      "name": "Prickle",
+      "type": "required",
+      "maven": {
+        "common": "net.darkhax.pricklemc:prickle-common-26.1.2:26.1.2.1",
+        "neoforge": "net.darkhax.pricklemc:prickle-neoforge-26.1.2:26.1.2.1",
+        "fabric": "net.darkhax.pricklemc:prickle-fabric-26.1.2:26.1.2.1"
+      },
+      "curseforge": {
+        "slug": "prickle",
+        "id": "1023259"
+      },
+      "modrinth": {
+        "slug": "prickle",
+        "id": "aaRl8GiW"
+      }
+    }
+  ]
+}
