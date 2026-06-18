@@ -4,9 +4,9 @@ issueTrackerURL = "https://github.com/Darkhax-Minecraft/Sheep-Armor/issues"
 
 [[mods]]
 modId = "sheeparmor"
-version = "26.1.2.0"
+version = "26.2.0.0"
 displayName = "SheepArmor"
-updateJSONURL = "https://updates.blamejared.com/get?n=sheeparmor&gv=26.1.2&ml=neoforge"
+updateJSONURL = "https://updates.blamejared.com/get?n=sheeparmor&gv=26.2&ml=neoforge"
 displayURL = "https://www.curseforge.com/minecraft/mc-mods/sheep-armor"
 logoFile = "logo_sheeparmor.png"
 logoBlur = false
@@ -23,14 +23,14 @@ config = "sheeparmor.neoforge.mixins.json"
 [[dependencies.sheeparmor]]
 modId = "minecraft"
 type = "required"
-versionRange = "26.1"
+versionRange = "26.2"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.sheeparmor]]
 modId = "neoforge"
 type = "required"
-versionRange = "[26.1.0.1-beta,)"
+versionRange = "[26.2.0.1-beta,)"
 ordering = "NONE"
 side = "BOTH"
 

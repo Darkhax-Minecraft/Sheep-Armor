@@ -1,5 +1,5 @@
 <!-- name-start -->
-# SheepArmor [![CurseForge Project](https://img.shields.io/curseforge/dt/951457?logo=curseforge&label=CurseForge&style=flat-square&labelColor=2D2D2D&color=555555)](https://www.curseforge.com/minecraft/mc-mods/sheep-armor) [![Modrinth Project](https://img.shields.io/modrinth/dt/3FMUP6BE?logo=modrinth&label=Modrinth&style=flat-square&labelColor=2D2D2D&color=555555)](https://modrinth.com/mod/XepF4jaZ) [![Maven Project](https://img.shields.io/maven-metadata/v?style=flat-square&logoColor=D31A38&labelColor=2D2D2D&color=555555&label=Latest&logo=gradle&metadataUrl=https%3A%2F%2Fmaven.blamejared.com%2Fnet%2Fdarkhax%2Fsheeparmor%2Fsheeparmor-common-26.1.2%2Fmaven-metadata.xml)](https://maven.blamejared.com/net/darkhax/sheeparmor)
+# SheepArmor [![CurseForge Project](https://img.shields.io/curseforge/dt/951457?logo=curseforge&label=CurseForge&style=flat-square&labelColor=2D2D2D&color=555555)](https://www.curseforge.com/minecraft/mc-mods/sheep-armor) [![Modrinth Project](https://img.shields.io/modrinth/dt/3FMUP6BE?logo=modrinth&label=Modrinth&style=flat-square&labelColor=2D2D2D&color=555555)](https://modrinth.com/mod/XepF4jaZ) [![Maven Project](https://img.shields.io/maven-metadata/v?style=flat-square&logoColor=D31A38&labelColor=2D2D2D&color=555555&label=Latest&logo=gradle&metadataUrl=https%3A%2F%2Fmaven.blamejared.com%2Fnet%2Fdarkhax%2Fsheeparmor%2Fsheeparmor-common-26.2%2Fmaven-metadata.xml)](https://maven.blamejared.com/net/darkhax/sheeparmor)
 <!-- name-end -->
 
 <!-- description-start -->
@@ -22,11 +22,11 @@ repositories {
 
 dependencies {
      // NeoForge
-     implementation group: 'net.darkhax.sheeparmor', name: 'sheeparmor-neoforge-26.1.2', version: '26.1.2.0'
+     implementation group: 'net.darkhax.sheeparmor', name: 'sheeparmor-neoforge-26.2', version: '26.2.0.0'
      // Fabric
-     implementation group: 'net.darkhax.sheeparmor', name: 'sheeparmor-fabric-26.1.2', version: '26.1.2.0'
+     implementation group: 'net.darkhax.sheeparmor', name: 'sheeparmor-fabric-26.2', version: '26.2.0.0'
      // Common / MultiLoader / Vanilla / No Loader
-     implementation group: 'net.darkhax.sheeparmor', name: 'sheeparmor-common-26.1.2', version: '26.1.2.0'
+     implementation group: 'net.darkhax.sheeparmor', name: 'sheeparmor-common-26.2', version: '26.2.0.0'
 }
 ```
 
