@@ -4,13 +4,12 @@ issueTrackerURL = "https://github.com/Darkhax-Minecraft/Sheep-Armor/issues"
 
 [[mods]]
 modId = "sheeparmor"
-version = "26.2.0.0"
+version = "26.3.0.0"
 displayName = "SheepArmor"
-updateJSONURL = "https://updates.blamejared.com/get?n=sheeparmor&gv=26.2&ml=neoforge"
+updateJSONURL = "https://updates.blamejared.com/get?n=sheeparmor&gv=26.3&ml=neoforge"
 displayURL = "https://www.curseforge.com/minecraft/mc-mods/sheep-armor"
-logoFile = "logo_sheeparmor.png"
-logoBlur = false
-credits = "This project is made possible with Patreon support from players like you. Thank you! lothrazar, techsquirrel, Keyana , Darkosto, Tobias Ward, noobanidus"
+iconFile = "logo_sheeparmor.png"
+credits = "This project is made possible with Patreon support from players like you. Thank you! lothrazar, techsquirrel, Tobias Ward, noobanidus"
 authors = "Darkhax"
 description = "Grants sheep a small armor bonus while they still have wool."
 
@@ -23,14 +22,14 @@ config = "sheeparmor.neoforge.mixins.json"
 [[dependencies.sheeparmor]]
 modId = "minecraft"
 type = "required"
-versionRange = "26.2"
+versionRange = "26.3"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.sheeparmor]]
 modId = "neoforge"
 type = "required"
-versionRange = "[26.2.0.1-beta,)"
+versionRange = "[26.3.0.16-beta,)"
 ordering = "NONE"
 side = "BOTH"
 
